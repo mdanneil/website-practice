@@ -35,7 +35,8 @@ body {
 /**** BUTTONS ****/
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 200px;
@@ -43,13 +44,15 @@ body {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
     background-color: #ed07b7;
     color: white;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type="submit"]:hover {
     background-color: #bd0592;
 }
 
@@ -417,4 +420,49 @@ cite img {
 
 .package-box div:first-child {
     background-color: #fcfcfc;
+}
+
+/**** CONTACT FORM SECTION ****/
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-heading {
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+input[type="submit"] {
+    border: 0;
+}
+
+input[type="checkbox"] {
+    margin: 10px 5px 10px 0;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {
+    outline: none;
 }
