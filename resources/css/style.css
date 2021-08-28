@@ -19,6 +19,19 @@ body {
     margin: 0 auto;
 }
 
+/**** CLEARFIX ****/
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+
 /**** BUTTONS ****/
 
 .btn:link,
@@ -224,13 +237,38 @@ header {
     color: white;
 }
 
-.clearfix {
-    zoom: 1;
+/**** SERVICES SECTION ****/
+
+.services-section {
+    text-align: center;
+    background-color: #f4f4f4;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-    visibility: hidden;
+.service-box {
+    padding: 1% 3%;
+}
+
+.big-icon {
+    font-size: 250%;
+    color: #6920b0;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.service-heading {
+    font-size: 150%;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.service-para {
+    color: #555;
+    font-size: 90%;
+    margin-bottom: 20px;
+}
+
+.service-link {
+    color: #ed07b7;
+    text-transform: uppercase;
+    text-decoration: none;
 }
