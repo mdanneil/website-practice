@@ -39,6 +39,7 @@ body {
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 200px;
+    display: inline-block;
 }
 
 .btn-full:link,
@@ -349,7 +350,7 @@ cite img {
     color: black;
     font-size: 250%;
     margin-top: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .package-box {
@@ -387,4 +388,33 @@ cite img {
 
 .package-box ul {
     list-style: none;
+}
+
+.small-icon {
+    color: #ed07b7;
+    font-size: 120%;
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    text-align: center;
+}
+
+.package-box ul li {
+    color: #555;
+    padding: 5px 0;
+}
+
+.package-box div {
+    padding: 15px;
+    border-bottom: 1px solid #efefef;
+}
+
+.package-box div:last-child {
+    border: 0;
+    text-align: center;
+    padding-left: 0;
+}
+
+.package-box div:first-child {
+    background-color: #fcfcfc;
 }
